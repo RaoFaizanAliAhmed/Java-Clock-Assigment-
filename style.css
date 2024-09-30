@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Dark background */
+}
+
+.clock-container {
+    text-align: center;
+    background-color: black; /* Slightly lighter background for the clock */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(40, 104, 181, 0.8); /* Shadow effect */
+}
+
+.title {
+    color: #2020c5; /* Dark blue color */
+    margin-bottom: 20px;
+}
+
+.clock {
+    padding: 20px;
+    background-color: #111; /* Dark inner background */
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.time {
+    font-size: 50px;
+    color: #FF8800; /* Bright orange color for time */
+}
+
+.ampm {
+    font-size: 25px;
+    color: #00FF00; /* Green color for AM/PM */
+}
+
+.date {
+    font-size: 20px;
+    color: #FF00FF; /* Bright pink color for date */
+    margin-top: 10px;
+}
